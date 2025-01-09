@@ -1,0 +1,238 @@
+*{margin: 0;
+padding: 0;}
+
+.banner{
+    width: 1920px;
+    height: 919px;
+    background: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+}
+.banner-container{
+    text-align: center;
+    align-content: center;
+    color: white; 
+    width: 1000px;
+    height: 390px;
+    margin: auto;
+}
+.banner-subtitle{
+    font-size: 32px;
+    font-weight: 600;
+    font-weight: 38px;
+    margin-bottom: 16px;
+    opacity: 0.8;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 24px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+.banner-btn-inside{
+    padding: 21px 32px;
+    border-radius: 8px;
+    background-color: rgb(82, 195, 3);
+    color: white;
+   
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.banner-btn{
+    width: 300px;
+    height: 65px;
+    margin: auto;
+    cursor:pointer
+    
+}
+.banner-btn-inside:hover{
+    background: darkred;
+}
+/* banner complete */
+.section-one-container{
+    width: 1320px;
+    height: 900px;
+    margin: 150px auto 50px;
+    border: 1px dashed black;
+}
+.section-one-content{
+    width: 691px;
+    height: 172px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+.section-one-subtitle{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 16px;
+    opacity: 0.8;
+}
+.section-one-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 48px;
+}
+.section-one-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.section-one-card{
+    text-align: center;
+    width: 424px;
+    height: 522px;
+}
+.food-name{
+    width: 187px;
+    height: 56px;
+    background-color: rgba(82, 195, 3, 0.15);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 5px 32px;
+    margin: 24px auto 32px;
+    align-content: center;
+    border-radius: 8px;
+}
+.offer{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.card-description{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+}
+.card-btn{
+    text-align: center;
+    margin: 100px auto 0px;
+    
+
+}
+.card-btn-inside{
+    padding: 10px 20px;
+    background-color: rgb(82, 195, 3);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    width: 212px;
+    height: 50px;
+}
+/* section one done */
+.section-two{
+    width: 1920px;
+    height: 671px;
+    display: flex;
+    margin: 150px auto 50px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.section-two-content{
+    width: 830px;
+    height: 398px;
+    text-align: center;
+    padding-right: 150px;
+}
+.section-two-title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.section-two-subtitle{
+   
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+
+margin-bottom: 48px;
+opacity: 0.7;
+}
+.follow-us{
+
+font-size: 32px;
+font-weight: 600;
+border-top: 1px solid gray;
+border-bottom: 1px solid gray;
+padding: 20px;
+}
+.section-two-pic img{
+    width: 960px;
+    height: 671px;
+    block-size: cover;
+    margin-right: 130px;
+}
+/* main section done */
+/* footer start */
+.footer{
+    weight:auto;
+    height: 671px;
+    background-color: rgba(255, 255, 255, 0.566);
+    background-image: url("assets/social-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+.footer-title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+width: 805px;
+height: 170px;
+padding-top: 130px;
+margin:auto;
+}
+.footer-banner{
+    width:1920px;
+    height: 671px;
+    background-color: rgba(255, 255, 255, 0.808);
+}
+.footer-content{
+    width: 1320px;
+    height: 330px;
+    text-align: center;
+    margin: auto;
+    
+}
+.footer-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 100px;
+}
